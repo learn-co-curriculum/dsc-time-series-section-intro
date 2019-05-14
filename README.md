@@ -2,14 +2,14 @@
 # Introduction
 
 ## Introduction
-This lesson summarizes the topics we'll be covering in section 25 and why they'll be important to you as a data scientist.
+This lesson summarizes the topics we'll be covering in section 31 and why they'll be important to you as a data scientist.
 
 ## Objectives
 You will be able to:
 * Understand and explain what is covered in this section
 * Understand and explain why the section will help you to become a data scientist
 
-## Time Series Data
+## Working with Time Series Data
 
 "Time series" data refers to data sets where the progress of time is an important dimension in the data set. For example working with the changes in stock prices, oil flow through a pipeline or even climate data over time requires an understanding of how to work with time series data. In this first of two sections on time series data, we introduce the concept of time series data, look at how to manage and visualize time series data, look at types of trends and how to test for and remove them and then introduce the idea of "time series decomposition". In the next section we'll then introduce techniques for modeling time series data.
 
@@ -21,11 +21,11 @@ We also introduce the use of time series histograms and density plots for visual
 
 ### Managing Time Series Data Lab
 
-After the (fairly comprehensive) introductory lesson above, it's your chance to get some experience working with time series data. You're going to import some data omn atmospheric CO2 levels and get some experience loading the data, slicing it, changing the granularity and performing some basic data cleaning operations on it.
+After the (fairly comprehensive) introductory lesson above, it's your chance to get some experience working with time series data. You're going to import some data on atmospheric CO2 levels and get some experience loading the data, slicing it, changing the granularity and performing some basic data cleaning operations on it.
 
 ### Visualizing Time Series Data Lab
 
-Next up, working we with the minimum daily temperature from Melbourne again, you'll get a chance to explore the structure of the time series using line plots, understanding and describing the distribution of the observations using histograms and density plots, and measuring the change in distrbution over intervals using box and whisker plots and heat map plots.
+Next up, working we with the minimum daily temperature from Melbourne again, you'll get a chance to explore the structure of the time series using line plots, understanding and describing the distribution of the observations using histograms and density plots, and measuring the change in distribution over intervals using box and whisker plots and heat map plots.
 
 ### Types of Trends
 
@@ -41,7 +41,7 @@ Most time series modeling techniques have a stationarity assumption, so in this 
 
 ### Time Series Decomposition
 
-Finally, we end the section by introducing the concept of decomposition - anither approach to removing trends and seasonality from a time series data set.
+Finally, we end the section by introducing the concept of decomposition - another approach to removing trends and seasonality from a time series data set.
 
 
 ## Summary
