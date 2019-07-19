@@ -2,7 +2,7 @@
 # Introduction
 
 ## Introduction
-This lesson summarizes the topics we'll be covering in section 31 and why they'll be important to you as a data scientist.
+In this section, you will learn about working with an important and ever-present type of data: time series data! Stock market prices, weather, and economic indicators like GDP are a few examples of time series data.
 
 ## Objectives
 You will be able to:
@@ -46,5 +46,5 @@ Finally, we end the section by introducing the concept of decomposition - anothe
 
 ## Summary
 
-This section will provide you with the foundational knowledge for loading and working with time series data, so you'll have the skills required to start to perform time series modeling in section 26!
+This section will provide you with the foundational knowledge for loading and working with time series data, so you'll have the skills required to start to perform time series modeling!
 
