@@ -11,13 +11,13 @@ You will be able to:
 
 ## Working with Time Series Data
 
-"Time series" data refers to data sets where the progress of time is an important dimension in the data set. For example working with the changes in stock prices, oil flow through a pipeline or even climate data over time requires an understanding of how to work with time series data. In this first of two sections on time series data, we introduce the concept of time series data, look at how to manage and visualize time series data, look at types of trends and how to test for and remove them and then introduce the idea of "time series decomposition". In the next section we'll then introduce techniques for modeling time series data.
+"Time series" data refers to data sets where the progress of time is an important dimension in the data set. For example, working with the changes in stock prices, oil flow through a pipeline or even climate data over time requires an understanding of how to work with time series data. In this first of two sections on time series data, we introduce the concept of time series data, look at how to manage and visualize time series data, look at types of trends and how to test for and remove them and then introduce the idea of "time series decomposition". In the next section, we'll then introduce techniques for modeling time series data.
 
 ### Introduction to Time Series
 
-In this lesson, we start by importing daily minimum temperatures from Melbourne, Australia and  introduce the importance of using dates as index values when importing into Pandas for time series data. We then go through how to downsample and upsample a data set and show some of the built in methods for easily selecting and slicing time series data. We also provide an introduction to some of the most common plots for time series such as a line plot or a dot plot and approaches to grouping and visualizing time series data.
+In this lesson, we start by importing daily minimum temperatures from Melbourne, Australia and  introduce the importance of using dates as index values when importing into Pandas for time series data. We then go through how to downsample and upsample a data set and show some of the built-in methods for easily selecting and slicing time series data. We also provide an introduction to some of the most common plots for time series such as a line plot or a dot plot and approaches to grouping and visualizing time series data.
 
-We also introduce the use of time series histograms and density plots for visualizing the distribution of the values without considering the times at which the values were measured, and suggest time series box and whisker plots on a per year basis to get a sense of trends over time. Finally we introduce time series heat maps which can be a great way of getting a sense of how time series data changes across a couple of dimensions (e.g. month to month and year to year).
+We also introduce the use of time series histograms and density plots for visualizing the distribution of the values without considering the times at which the values were measured and suggest time series box and whisker plots on a per-year basis to get a sense of trends over time. Finally, we introduce time series heat maps which can be a great way of getting a sense of how time series data changes across a couple of dimensions (e.g. month to month and year to year).
 
 ### Managing Time Series Data Lab
 
@@ -29,11 +29,11 @@ Next up, working we with the minimum daily temperature from Melbourne again, you
 
 ### Types of Trends
 
-Basic regression tests are often not capable of capturing and predicting time-dependent patterns, so in this lesson we introduce the concept of trends, stationarity and explain the Dickey Fuller Test for performing statistical testing for time series stationarity.
+Basic regression tests are often not capable of capturing and predicting time-dependent patterns, so in this lesson, we introduce the concept of trends, stationarity and explain the Dickey-Fuller Test for performing statistical testing for time series stationarity.
 
 ### Testing for Trends Lab
 
-After introducing the concepts in the previous lesson, in this lab you get a chance to implement a number of tests for stationarity of a time series data set.
+After introducing the concepts in the previous lesson, in this lab, you get a chance to implement some tests for stationarity of a time series data set.
 
 ### Removing Trends
 
